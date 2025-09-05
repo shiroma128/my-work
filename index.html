@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>My Work - Portfolio</title>
+  <meta name="description" content="大人女性向けのネイルチップ販売サイトです。落ち着いた上品なデザインを取り揃えています。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/d2a9c5e096.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <header id="header">
+    <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Workロゴ"></a></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram" style="font-size: 1rem;"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="mainvisual">
+      <picture>
+        <source media="(max-width: 600px)" srcset="img/mainvisual-sp.png">
+        <img src="img/mainvisual-pc.png" alt="mainvisual">
+      </picture>
+    </div>
+
+    <section id="about" class="wrapper">
+      <h2 class="sec-title">About</h2>
+      <ul>
+        <li>Tsumeno Hanako</li>
+        <li>202 Yama Building 0-0-0 Nishiazabu, Minato-ku, Tokyo 000-0000 Japan</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxx.jp</li>
+        <li>mail: xxx@xxxxx.jp</li>
+      </ul>
+      <p>
+        ネイリスト検定1級｜ジェル検定上級<br>
+        表参道のネイルサロンで10年間、幅広いお客様に寄り添う施術を行ってまいりました。<br>
+        様々な事情でサロンに来られないお客様の為に、ネイルチップ制作を始めました(*^^*)<br>
+        一つ一つ丁寧に仕上げたネイルチップで、あなたの日常が特別なものになりますように…♡
+      </p>
+    </section>
+
+    <section id="works" class="wrapper">
+      <h2 class="sec-title">Works</h2>
+      <ul>
+        <li><img src="img/works1.png" alt="works1"></li>
+        <li><img src="img/works2.png" alt="works2"></li>
+        <li><img src="img/works3.png" alt="works3"></li>
+        <li><img src="img/works4.png" alt="works4"></li>
+        <li><img src="img/works5.png" alt="works5"></li>
+        <li><img src="img/works6.png" alt="works6"></li>
+      </ul>
+    </section>
+
+    <section id="news" class="wrapper">
+      <h2 class="sec-title">News</h2>
+      <dl>
+        <dt>2025.07.27</dt>
+        <dd>8/1～8/15 POPUP開催のお知らせ</dd>
+        <dt>2025.02.01</dt>
+        <dd>「Nail Store Tokyo」様で委託販売が決定しました！</dd>
+        <dt>2024.12.05</dt>
+        <dd>「東京ネイルフェス」に出展します！</dd>
+        <dt>2024.09.30</dt>
+        <dd>ネイルチップのオーダー受注を再開しました。</dd>
+        <dt>2024.06.10</dt>
+        <dd>ネイル雑誌「Best Nail Book Vol.125」に掲載していただきました！</dd>
+      </dl>
+    </section>
+    
+    <section id="contact" class="wrapper">
+      <h2 class="sec-title">Contact</h2>
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd><input type="text" id="name" name="your-name"></dd>
+          <dt><label for="email">E-mail</label></dt>
+          <dd><input type="email" id="email" name="your-email"></dd>
+          <dt><label for="message">MESSAGE</label></dt>
+          <dd><textarea name="your-message" id="message"></textarea></dd>
+        </dl>
+        <div class="button"><input type="submit" value="送信"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>&copy; 2025 My Work</p>
+  </footer>
+</body>
+</html>
